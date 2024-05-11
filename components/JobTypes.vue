@@ -9,37 +9,43 @@
         Pick a <span class="text-green-500">Profession</span>
       </h1>
     </div>
-    <ULandingGrid>
-      <ULandingCard
-        @click="getRandomJob('software')"
-        class="col-span-6 row-span-2 cursor-pointer hover:scale-95 duration-300"
-        icon="i-heroicons-code-bracket-16-solid"
-        title="Software Development"
-        description="Backend, Frontend, Fullstack..."
-      />
-      <ULandingCard
-        @click="getRandomJob('network')"
-        class="col-span-6 row-span-4 cursor-pointer hover:scale-95 duration-300"
-        icon="i-heroicons-circle-stack-16-solid"
-        title="Networking"
-        description="Network Administrator, Network Analyst..."
-      />
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div @click="getRandomJob('software')" class="jobCard">
+        <UIcon
+          name="i-heroicons-code-bracket-16-solid"
+          class="text-2xl cursor-pointer"
+        />
+        <h1>Software Development</h1>
+        <p>Backend, Frontend, Fullstack...</p>
+      </div>
 
-      <ULandingCard
-        @click="getRandomJob('hacking')"
-        class="col-span-6 row-span-4 cursor-pointer hover:scale-95 duration-300"
-        icon="i-heroicons-bug-ant"
-        title="Hacking"
-        description="Ethical Hacker, Penetration Testing..."
-      />
-      <ULandingCard
-        @click="getRandomJob('design')"
-        class="col-span-6 row-span-2 cursor-pointer hover:scale-95 duration-300"
-        icon="i-heroicons-photo-16-solid"
-        title="Graphic & Motion"
-        description="Graphic Desing, Motion Graphic..."
-      />
-    </ULandingGrid>
+      <div @click="getRandomJob('network')" class="jobCard">
+        <UIcon
+          name="i-heroicons-code-bracket-16-solid"
+          class="text-2xl cursor-pointer"
+        />
+        <h1>Networking</h1>
+        <p>Network Administrator, Network Analyst...</p>
+      </div>
+
+      <div @click="getRandomJob('hacking')" class="jobCard">
+        <UIcon
+          name="i-heroicons-code-bracket-16-solid"
+          class="text-2xl cursor-pointer"
+        />
+        <h1>Hacking</h1>
+        <p>Ethical Hacker, Penetration Testing...</p>
+      </div>
+
+      <div @click="getRandomJob('design')" class="jobCard">
+        <UIcon
+          name="i-heroicons-code-bracket-16-solid"
+          class="text-2xl cursor-pointer"
+        />
+        <h1>Graphic & Motion</h1>
+        <p>Graphic Desing, Motion Graphic...</p>
+      </div>
+    </div>
   </div>
 
   <UModal v-if="jobType != ''" v-model="isOpen" fullscreen>
@@ -89,4 +95,8 @@ function getRandomJob(type: string) {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.jobCard {
+  @apply border-[0.001px] p-5 rounded-lg border-white hover:shadow-lg hover:shadow-green-500 cursor-pointer hover:scale-95 duration-300;
+}
+</style>

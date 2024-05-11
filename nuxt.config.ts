@@ -2,13 +2,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  ui: {
-    icons: {
-      dynamic: true,
-    },
-  },
-
-  extends: ["@nuxt/ui-pro"],
   modules: ["@nuxt/ui", "@nuxt/content"],
 
   colorMode: {

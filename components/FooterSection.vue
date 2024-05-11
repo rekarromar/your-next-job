@@ -15,7 +15,7 @@
 let persons = [
   {
     name: "Rekar Omar",
-    url: "",
+    url: "https://www.facebook.com/rekarromar",
   },
   {
     name: "Aland Nawzad",
