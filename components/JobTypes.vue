@@ -10,40 +10,15 @@
       </h1>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-      <div @click="getRandomJob('software')" class="jobCard">
-        <UIcon
-          name="i-heroicons-code-bracket-16-solid"
-          class="text-2xl cursor-pointer"
-        />
-        <h1>Software Development</h1>
-        <p>Backend, Frontend, Fullstack...</p>
-      </div>
-
-      <div @click="getRandomJob('network')" class="jobCard">
-        <UIcon
-          name="i-heroicons-code-bracket-16-solid"
-          class="text-2xl cursor-pointer"
-        />
-        <h1>Networking</h1>
-        <p>Network Administrator, Network Analyst...</p>
-      </div>
-
-      <div @click="getRandomJob('hacking')" class="jobCard">
-        <UIcon
-          name="i-heroicons-code-bracket-16-solid"
-          class="text-2xl cursor-pointer"
-        />
-        <h1>Hacking</h1>
-        <p>Ethical Hacker, Penetration Testing...</p>
-      </div>
-
-      <div @click="getRandomJob('design')" class="jobCard">
-        <UIcon
-          name="i-heroicons-code-bracket-16-solid"
-          class="text-2xl cursor-pointer"
-        />
-        <h1>Graphic & Motion</h1>
-        <p>Graphic Desing, Motion Graphic...</p>
+      <div
+        v-for="job in jobs"
+        @click="getRandomJob(job.key)"
+        :class="mode.value == 'dark' ? 'border-white' : 'border-black'"
+        class="border-[0.001px] p-5 rounded-lg hover:shadow-lg hover:shadow-green-500 cursor-pointer hover:scale-95 duration-300"
+      >
+        <UIcon :name="job.icon" class="text-2xl cursor-pointer" />
+        <h1>{{ job.name }}</h1>
+        <p>{{ job.desc }}</p>
       </div>
     </div>
   </div>
@@ -64,7 +39,7 @@
           <h3
             class="text-base font-semibold leading-6 text-gray-900 dark:text-white"
           >
-            Modal
+            Your Job
           </h3>
           <UButton
             color="gray"
@@ -84,6 +59,33 @@
 </template>
 
 <script setup lang="ts">
+let jobs = [
+  {
+    name: "Software Development",
+    desc: "Backend, Frontend, Fullstack...",
+    icon: "i-heroicons-code-bracket-16-solid",
+    key: "software",
+  },
+  {
+    name: "Networking",
+    desc: "Network Administrator, Network Analyst...",
+    icon: "i-heroicons-cloud-solid",
+    key: "network",
+  },
+  {
+    name: "Hacking",
+    desc: "Ethical Hacker, Penetration Testing...",
+    icon: "i-heroicons-bug-ant-16-solid",
+    key: "hacking",
+  },
+  {
+    name: "Graphic & Motion",
+    desc: "Graphic Desing, Motion Graphic...",
+    icon: "i-heroicons-photo-16-solid",
+    key: "design",
+  },
+];
+
 const isOpen = ref(false);
 const jobType = ref("");
 
@@ -94,9 +96,3 @@ function getRandomJob(type: string) {
   isOpen.value = true;
 }
 </script>
-
-<style scoped>
-.jobCard {
-  @apply border-[0.001px] p-5 rounded-lg border-white hover:shadow-lg hover:shadow-green-500 cursor-pointer hover:scale-95 duration-300;
-}
-</style>

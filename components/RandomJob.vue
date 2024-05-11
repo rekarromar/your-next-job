@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col items-center gap-y-2">
-    <h1 class="text-2xl font-bold text-center">Your Job Is</h1>
+    <h1 class="text-2xl font-bold text-center">Your Job Will Be</h1>
 
     <div v-if="job" class="flex flex-col items-center gap-y-5">
       <div class="flex flex-col items-center gap-2">
@@ -18,12 +18,16 @@
         Things You Need To Be Familiar With
       </h1>
 
-      <div class="flex flex-wrap gap-5 max-w-[500px] m-auto">
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-5 max-w-[500px] m-auto">
         <div
           v-for="technology in job.technologies"
           class="flex items-center justify-center p-10 border-2 border-green rounded-lg hover:scale-95 cursor-pointer hover:shadow-lg hover:shadow-green-100"
         >
-          <a class="text-xl font-semibold" :href="technology.url">
+          <a
+            class="text-xl font-semibold"
+            :href="technology.url"
+            target="_blank"
+          >
             {{ technology.name }}
           </a>
         </div>
@@ -33,6 +37,8 @@
 </template>
 
 <script setup lang="ts">
+const mode = useColorMode();
+
 const props = defineProps({
   type: {
     require: true,
