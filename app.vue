@@ -7,3 +7,16 @@
     </NuxtLayout>
   </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: "You Next Job",
+  meta: [
+    {
+      name: "description",
+      content:
+        "This website gives a list of technologies that you need to learn the job that is guessed automatically for you.",
+    },
+  ],
+});
+</script>
