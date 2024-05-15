@@ -17,7 +17,7 @@
         class="border-[0.001px] p-5 rounded-lg hover:shadow-lg hover:shadow-green-500 cursor-pointer hover:scale-95 duration-300"
       >
         <UIcon :name="job.icon" class="text-2xl cursor-pointer" />
-        <h1>{{ job.name }}</h1>
+        <h1 class="text-green-500 font-bold">{{ job.name }}</h1>
         <p>{{ job.desc }}</p>
       </div>
     </div>
@@ -83,6 +83,18 @@ let jobs = [
     desc: "Graphic Desing, Motion Graphic...",
     icon: "i-heroicons-photo-16-solid",
     key: "design",
+  },
+  {
+    name: "Mathematicians",
+    desc: "Mathematical Physics, Computational Mathematics...",
+    icon: "i-heroicons-cube-transparent",
+    key: "math",
+  },
+  {
+    name: "Chemistry",
+    desc: "Inorganic Chemistry, Physical Chemistry...",
+    icon: "i-heroicons-beaker-16-solid",
+    key: "chemistry",
   },
 ];
 

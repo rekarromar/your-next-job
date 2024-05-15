@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Pure Mathematics",
+    "description": "Study of fundamental concepts in mathematics, including algebra, calculus, geometry, and number theory.",
+    "technologies": [
+      {
+        "name": "Algebra",
+        "url": "https://www.mathsisfun.com/algebra/index.html"
+      },
+      {
+        "name": "Calculus",
+        "url": "https://www.mathsisfun.com/calculus/index.html"
+      },
+      {
+        "name": "Geometry",
+        "url": "https://www.mathsisfun.com/geometry/index.html"
+      },
+      {
+        "name": "Number Theory",
+        "url": "https://www.mathsisfun.com/numbers/index.html"
+      },
+      {
+        "name": "Topology",
+        "url": "https://www.mathsisfun.com/geometry/topology.html"
+      }
+    ]
+  },
+  {
+    "name": "Applied Mathematics",
+    "description": "Application of mathematical principles to solve real-world problems in various fields.",
+    "technologies": [
+      {
+        "name": "Statistics",
+        "url": "https://www.mathsisfun.com/data/index.html"
+      },
+      {
+        "name": "Probability",
+        "url": "https://www.mathsisfun.com/probability/index.html"
+      },
+      {
+        "name": "Differential Equations",
+        "url": "https://www.mathsisfun.com/calculus/differential-equations.html"
+      },
+      {
+        "name": "Linear Algebra",
+        "url": "https://www.mathsisfun.com/algebra/matrix-multiplying.html"
+      },
+      {
+        "name": "Numerical Analysis",
+        "url": "https://www.mathsisfun.com/numbers/index.html"
+      }
+    ]
+  },
+  {
+    "name": "Discrete Mathematics",
+    "description": "Study of mathematical structures that are fundamentally discrete rather than continuous.",
+    "technologies": [
+      {
+        "name": "Graph Theory",
+        "url": "https://www.mathsisfun.com/graphs/index.html"
+      },
+      {
+        "name": "Combinatorics",
+        "url": "https://www.mathsisfun.com/combinatorics/combinations-permutations.html"
+      },
+      {
+        "name": "Logic",
+        "url": "https://www.mathsisfun.com/logic/index.html"
+      },
+      {
+        "name": "Set Theory",
+        "url": "https://www.mathsisfun.com/sets/sets-introduction.html"
+      },
+      {
+        "name": "Cryptology",
+        "url": "https://www.mathsisfun.com/cryptography/index.html"
+      }
+    ]
+  },
+  {
+    "name": "Computational Mathematics",
+    "description": "Use of computers to solve mathematical problems and perform mathematical research.",
+    "technologies": [
+      {
+        "name": "MATLAB",
+        "url": "https://www.mathworks.com/learn/tutorials/matlab-onramp.html"
+      },
+      {
+        "name": "Python",
+        "url": "https://www.python.org/doc/"
+      },
+      {
+        "name": "R",
+        "url": "https://www.r-project.org/manuals.html"
+      },
+      {
+        "name": "Julia",
+        "url": "https://docs.julialang.org/en/v1/"
+      },
+      {
+        "name": "Mathematica",
+        "url": "https://www.wolfram.com/mathematica/new-in-12/"
+      }
+    ]
+  },
+  {
+    "name": "Mathematical Physics",
+    "description": "Study of mathematical methods for solving problems in physics.",
+    "technologies": [
+      {
+        "name": "Quantum Mechanics",
+        "url": "https://www.physicsclassroom.com/class/quantum"
+      },
+      {
+        "name": "Classical Mechanics",
+        "url": "https://www.khanacademy.org/science/physics"
+      },
+      {
+        "name": "Statistical Mechanics",
+        "url": "https://www.khanacademy.org/science/physics"
+      },
+      {
+        "name": "Fluid Dynamics",
+        "url": "https://www.khanacademy.org/science/physics/fluids"
+      },
+      {
+        "name": "Electromagnetism",
+        "url": "https://www.khanacademy.org/science/physics/electric-charge-electric-force-and-voltage"
+      }
+    ]
+  }
+]

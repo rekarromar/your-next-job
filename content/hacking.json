@@ -1,18 +1,103 @@
 [
   {
-    "name": "Ethilcal Hacker",
-    "description": "Minim ullamco consequat elit nisi occaecat est sunt eu irure fugiat sint commodo fugiat ea. Laborum pariatur incididunt ",
+    "name": "Networking and operating system",
+    "description": "within cybersecurity we distinguish technology, network  and linux as an essential skill for cybersecurity",
     "technologies": [
-      { "name": "NodeJS", "url": "" },
-      { "name": "Laravel", "url": "" }
+      {
+        "name": "Comptia A+",
+        "url": "https://www.comptia.org/certifications/a"
+      },
+      {
+        "name": "Cisco CCNA 200-301",
+        "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/ccna-200-301.html"
+      },
+      {
+        "name": "Comptia Network+",
+        "url": "https://www.comptia.org/certifications/network"
+      },
+      {
+        "name": "Comptia Linux+",
+        "url": "https://www.comptia.org/certifications/linux"
+      }
+    ]
+  },
+
+  {
+    "name": "Ethical hacking",
+    "description": "",
+    "technologies": [
+      {
+        "name": "Comptia Security+",
+        "url": "https://www.comptia.org/certifications/security"
+      },
+      {
+        "name": "CompTIA CybersecurityAnalyst+",
+        "url": "https://www.comptia.org/certifications/cybersecurity-analyst"
+      },
+      {
+        "name": "SSCP-Systems Security Certified Practitioner",
+        "url": "https://www.isc2.org/certifications/sscp"
+      },
+      {
+        "name": "Certified Cybersecurity Technician (C|CT)",
+        "url": "https://www.eccouncil.org/train-certify/certified-cybersecurity-technician-certification/"
+      },
+      {
+        "name": "Certified Cloud Security Practitioner AWS(CCSP-AWS)",
+        "url": "https://secops.group/product/certified-cloud-security-practitioner-aws-ccsp-aws/"
+      }
     ]
   },
   {
-    "name": "",
-    "description": "",
+    "name": "Offensive (Red team)",
+    "description": "focus on penetrating systems and identifying their vulnerabilities which also consist of active directory penetration, buffer overflow, web application penetration in general",
     "technologies": [
-      { "name": "", "url": "" },
-      { "name": "", "url": "" }
+      {
+        "name": "Practical Junior Penetration Tester (PJPT)",
+        "url": "https://certifications.tcm-sec.com/pjpt/"
+      },
+      {
+        "name": "Practical Network Penetration Tester (PNPT)",
+        "url": "https://certifications.tcm-sec.com/pnpt/"
+      },
+      {
+        "name": "PEN-200: Penetration Testing (OSCP)",
+        "url": "https://www.offsec.com/courses/pen-200/"
+      },
+      {
+        "name": "CompTIA PenTest+",
+        "url": "https://www.comptia.org/certifications/pentest"
+      },
+      {
+        "name": "WEB-200: Foundational Web Application (OSWA)",
+        "url": "https://www.offsec.com/courses/web-200/"
+      },
+      {
+        "name": "Certified Mobile Pentester (CMPen) for iOS",
+        "url": "https://secops.group/product/certified-mobile-pentester-cmpen-ios/"
+      },
+      {
+        "name": "Certified Ethical Hacker (CEH)",
+        "url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/"
+      }
+    ]
+  },
+  {
+    "name": "Defensive (Blue team)",
+    "description": "Core of cyber security, aims on defending networks against bad actors and identifying threats and network monitoring, also focuses on  computer forensics and investigations as individual",
+    "technologies": [
+      {
+        "name": "SOC-200: Foundational Security Operations and Defensive Analysis (OSDA)",
+        "url": "https://www.offsec.com/courses/soc-200/"
+      },
+      {
+        "name": "Computer Hacking Forensics Investigator (C|HFI)",
+        "url": "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/"
+      },
+      {
+        "name": "CCNP security",
+        "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/security/ccnp-security/exams-and-training.html"
+      }
     ]
   }
 ]

@@ -18,13 +18,15 @@
         Things You Need To Be Familiar With
       </h1>
 
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-5 max-w-[500px] m-auto">
+      <div
+        class="grid grid-cols-2 md:grid-cols-2 gap-5 max-h-[300px] max-w-[500px] min-h-[300px] min-w-[500px] m-auto"
+      >
         <div
           v-for="technology in job.technologies"
-          class="flex items-center justify-center p-10 border-2 border-green rounded-lg hover:scale-95 cursor-pointer hover:shadow-lg hover:shadow-green-100"
+          class="flex items-center justify-center p-4 border-2 border-green rounded-lg hover:scale-95 cursor-pointer hover:shadow-lg hover:shadow-green-100"
         >
           <a
-            class="text-xl font-semibold"
+            class="text-xl font-semibold text-center"
             :href="technology.url"
             target="_blank"
           >

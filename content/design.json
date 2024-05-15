@@ -1,18 +1,90 @@
 [
   {
-    "name": "Adobe Photoshop",
-    "description": "Minim ullamco consequat elit nisi occaecat est sunt eu irure fugiat sint commodo fugiat ea. Laborum pariatur incididunt ",
+    "name": "Graphic Designer",
+    "description": "Creating visual concepts using computer software or by hand to communicate ideas that inspire, inform, and captivate consumers.",
     "technologies": [
-      { "name": "NodeJS", "url": "" },
-      { "name": "Laravel", "url": "" }
+      {
+        "name": "Adobe Photoshop",
+        "url": "https://helpx.adobe.com/photoshop/tutorials.html"
+      },
+      {
+        "name": "Adobe Illustrator",
+        "url": "https://helpx.adobe.com/illustrator/tutorials.html"
+      },
+      {
+        "name": "Adobe InDesign",
+        "url": "https://helpx.adobe.com/indesign/tutorials.html"
+      },
+      { "name": "Typography", "url": "https://www.typewolf.com/" },
+      {
+        "name": "Color Theory",
+        "url": "https://99designs.com/blog/tips/color-theory-basics-every-designer-know/"
+      },
+      {
+        "name": "Layout Design",
+        "url": "https://www.canva.com/learn/layout-design/"
+      }
     ]
   },
   {
-    "name": "",
-    "description": "",
+    "name": "Motion Graphic Designer",
+    "description": "Creating animated elements and visual effects for films, television, video games, and other media.",
     "technologies": [
-      { "name": "", "url": "" },
-      { "name": "", "url": "" }
+      {
+        "name": "Adobe After Effects",
+        "url": "https://helpx.adobe.com/after-effects/tutorials.html"
+      },
+      {
+        "name": "Cinema 4D",
+        "url": "https://www.cineversity.com/learn/Cinema_4D"
+      },
+      {
+        "name": "Adobe Premiere Pro",
+        "url": "https://helpx.adobe.com/premiere-pro/tutorials.html"
+      },
+      {
+        "name": "Motion Graphics Principles",
+        "url": "https://www.schoolofmotion.com/blog/category/motion-design"
+      },
+      {
+        "name": "Storyboarding",
+        "url": "https://www.storyboardthat.com/storyboard-creator"
+      },
+      {
+        "name": "3D Animation",
+        "url": "https://www.blender.org/learn/animation/"
+      }
+    ]
+  },
+  {
+    "name": "UI/UX Designer",
+    "description": "Designing user interfaces and user experiences for digital products.",
+    "technologies": [
+      { "name": "Sketch", "url": "https://www.sketch.com/docs/" },
+      {
+        "name": "Adobe XD",
+        "url": "https://helpx.adobe.com/xd/tutorials.html"
+      },
+      {
+        "name": "Figma",
+        "url": "https://www.figma.com/resources/learn-design/"
+      },
+      {
+        "name": "Wireframing",
+        "url": "https://www.mockflow.com/app/#Wireframe"
+      },
+      {
+        "name": "Prototyping",
+        "url": "https://www.invisionapp.com/inside-design/what-is-prototype-design/"
+      },
+      {
+        "name": "User Research",
+        "url": "https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/"
+      },
+      {
+        "name": "Usability Testing",
+        "url": "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html"
+      }
     ]
   }
 ]

@@ -1,18 +1,201 @@
 [
   {
-    "name": "Netowk",
-    "description": "Minim ullamco consequat elit nisi occaecat est sunt eu irure fugiat sint commodo fugiat ea. Laborum pariatur incididunt ",
+    "name": "Frontend Developer",
+    "description": "Creating user interfaces and experiences on the web.",
     "technologies": [
-      { "name": "NodeJS", "url": "" },
-      { "name": "Laravel", "url": "" }
+      {
+        "name": "HTML5",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+      },
+      {
+        "name": "CSS3",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
+      },
+      {
+        "name": "JavaScript (ES6+)",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        "name": "React.js",
+        "url": "https://reactjs.org/docs/getting-started.html"
+      },
+      { "name": "Angular", "url": "https://angular.io/docs" },
+      { "name": "Vue.js", "url": "https://vuejs.org/v2/guide/" },
+      {
+        "name": "Responsive Design",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"
+      },
+      {
+        "name": "CSS Preprocessors (Sass, Less)",
+        "url": "https://sass-lang.com/documentation"
+      }
     ]
   },
   {
-    "name": "",
-    "description": "",
+    "name": "Mobile App Developer (iOS)",
+    "description": "Developing applications for Apple's iOS platform.",
     "technologies": [
-      { "name": "", "url": "" },
-      { "name": "", "url": "" }
+      { "name": "Swift", "url": "https://swift.org/documentation/" },
+      {
+        "name": "Objective-C",
+        "url": "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html"
+      },
+      { "name": "Xcode", "url": "https://developer.apple.com/xcode/" },
+      {
+        "name": "SwiftUI",
+        "url": "https://developer.apple.com/documentation/swiftui"
+      },
+      {
+        "name": "UIKit",
+        "url": "https://developer.apple.com/documentation/uikit"
+      },
+      {
+        "name": "Core Data",
+        "url": "https://developer.apple.com/documentation/coredata"
+      },
+      { "name": "CocoaPods", "url": "https://cocoapods.org/" }
+    ]
+  },
+  {
+    "name": "Mobile App Developer (Android)",
+    "description": "Developing applications for the Android platform.",
+    "technologies": [
+      { "name": "Java", "url": "https://docs.oracle.com/en/java/" },
+      { "name": "Kotlin", "url": "https://kotlinlang.org/docs/reference/" },
+      {
+        "name": "Android Studio",
+        "url": "https://developer.android.com/studio/intro"
+      },
+      {
+        "name": "XML",
+        "url": "https://developer.android.com/guide/topics/ui/declaring-layout"
+      },
+      {
+        "name": "Android SDK",
+        "url": "https://developer.android.com/studio/intro/sdk"
+      },
+      { "name": "Retrofit", "url": "https://square.github.io/retrofit/" },
+      {
+        "name": "Room",
+        "url": "https://developer.android.com/topic/libraries/architecture/room"
+      }
+    ]
+  },
+  {
+    "name": "Full Stack Developer",
+    "description": "Handling both frontend and backend development tasks.",
+    "technologies": [
+      { "name": "Node.js", "url": "https://nodejs.org/en/docs/" },
+      { "name": "Express.js", "url": "https://expressjs.com/" },
+      { "name": "MongoDB", "url": "https://docs.mongodb.com/manual/" },
+      {
+        "name": "React.js",
+        "url": "https://reactjs.org/docs/getting-started.html"
+      },
+      { "name": "Angular", "url": "https://angular.io/docs" },
+      { "name": "Vue.js", "url": "https://vuejs.org/v2/guide/" },
+      { "name": "RESTful APIs", "url": "https://restfulapi.net/" },
+      { "name": "GraphQL", "url": "https://graphql.org/learn/" }
+    ]
+  },
+  {
+    "name": "DevOps Engineer",
+    "description": "Managing the deployment and operation of applications through automation and collaboration.",
+    "technologies": [
+      { "name": "Docker", "url": "https://docs.docker.com/" },
+      { "name": "Kubernetes", "url": "https://kubernetes.io/docs/" },
+      { "name": "Jenkins", "url": "https://www.jenkins.io/doc/" },
+      { "name": "Ansible", "url": "https://docs.ansible.com/" },
+      {
+        "name": "Terraform",
+        "url": "https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code"
+      },
+      {
+        "name": "AWS/GCP/Azure",
+        "url": "https://aws.amazon.com/documentation/"
+      },
+      {
+        "name": "Linux Administration",
+        "url": "https://linuxhandbook.com/linux-administration/"
+      },
+      {
+        "name": "Monitoring Tools (Prometheus, Grafana)",
+        "url": "https://prometheus.io/docs/ and https://grafana.com/docs/"
+      }
+    ]
+  },
+  {
+    "name": "Data Scientist",
+    "description": "Analyzing and interpreting complex data to inform decision-making processes.",
+    "technologies": [
+      { "name": "Python", "url": "https://docs.python.org/3/" },
+      { "name": "R", "url": "https://www.rdocumentation.org/" },
+      { "name": "SQL", "url": "https://www.w3schools.com/sql/" },
+      { "name": "Pandas", "url": "https://pandas.pydata.org/docs/" },
+      { "name": "NumPy", "url": "https://numpy.org/doc/" },
+      { "name": "SciPy", "url": "https://docs.scipy.org/doc/scipy/" },
+      { "name": "TensorFlow", "url": "https://www.tensorflow.org/guide" },
+      { "name": "PyTorch", "url": "https://pytorch.org/docs/stable/index.html" }
+    ]
+  },
+  {
+    "name": "Machine Learning Engineer",
+    "description": "Designing and implementing machine learning algorithms and models.",
+    "technologies": [
+      { "name": "Python", "url": "https://docs.python.org/3/" },
+      { "name": "TensorFlow", "url": "https://www.tensorflow.org/guide" },
+      {
+        "name": "PyTorch",
+        "url": "https://pytorch.org/docs/stable/index.html"
+      },
+      {
+        "name": "Scikit-learn",
+        "url": "https://scikit-learn.org/stable/documentation.html"
+      },
+      { "name": "Keras", "url": "https://keras.io/api/" },
+      {
+        "name": "Apache Spark",
+        "url": "https://spark.apache.org/docs/latest/"
+      },
+      {
+        "name": "Natural Language Processing (NLP)",
+        "url": "https://www.nltk.org/"
+      },
+      { "name": "Computer Vision", "url": "https://opencv.org/documentation/" }
+    ]
+  },
+  {
+    "name": "Cybersecurity Analyst",
+    "description": "Protecting systems and networks from digital attacks.",
+    "technologies": [
+      {
+        "name": "Network Security Protocols",
+        "url": "https://www.cloudflare.com/learning/ddos/glossary/network-security-protocols/"
+      },
+      {
+        "name": "Intrusion Detection Systems (IDS)",
+        "url": "https://www.cisco.com/c/en/us/products/security/intrusion-detection-system/"
+      },
+      {
+        "name": "Ethical Hacking Tools (Kali Linux)",
+        "url": "https://www.kali.org/"
+      },
+      {
+        "name": "SIEM (Security Information and Event Management)",
+        "url": "https://www.ibm.com/security/security-intelligence/siem"
+      },
+      {
+        "name": "Penetration Testing",
+        "url": "https://owasp.org/www-project-web-security-testing-guide/"
+      },
+      {
+        "name": "Encryption Technologies",
+        "url": "https://www.cloudflare.com/learning/ssl/what-is-encryption/"
+      },
+      {
+        "name": "Security Compliance Standards (GDPR, HIPAA)",
+        "url": "https://gdpr.eu/ and https://www.hhs.gov/hipaa/index.html"
+      }
     ]
   }
 ]
