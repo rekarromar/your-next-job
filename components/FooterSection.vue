@@ -1,39 +1,23 @@
 <template>
   <div class="flex flex-col items-center gap-y-2 px-5">
-    <h1 class="bg-green-500 px-2 py-1 rounded-lg font-bold text-black">
-      Prepared By
-    </h1>
     <div class="flex flex-wrap justify-center gap-x-3">
-      <a v-for="person in persons" :href="person.url" target="_blank"
-        >{{ person.name }}
+      <a
+        href="https://github.com/rekarromar/your-next-job"
+        target="_blank"
+        class="flex items-center gap-x-2"
+      >
+        <Github
+          :class="mode.value == 'dark' ? 'fill-white' : 'fill-black'"
+          class="w-6"
+        />
+        Source Code
       </a>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-let persons = [
-  {
-    name: "Rekar Omar",
-    url: "https://www.facebook.com/rekarromar",
-  },
-  {
-    name: "Aland Nawzad",
-    url: "",
-  },
-  {
-    name: "Ahmad Habib",
-    url: "",
-  },
-  {
-    name: "Balen Jaza",
-    url: "",
-  },
-  {
-    name: "Hawkar Omar",
-    url: "",
-  },
-];
+const mode = useColorMode();
 </script>
 
 <style scoped></style>

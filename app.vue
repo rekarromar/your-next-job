@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[1200px] m-auto py-5 px-2 md:px-5">
+  <div class="max-w-[1200px] m-auto py-5 px-2 md:px-5 overflow-x-hidden">
     <NuxtLayout>
       <HeaderSection />
       <NuxtPage />

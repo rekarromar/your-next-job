@@ -12,7 +12,7 @@
         class="text-2xl cursor-pointer"
       />
 
-      <a href="https://github.com/rekarromar/you-next-job" target="_blank">
+      <a href="https://github.com/rekarromar/your-next-job" target="_blank">
         <Github
           :class="mode.value == 'dark' ? 'fill-white' : 'fill-black'"
           class="w-6"

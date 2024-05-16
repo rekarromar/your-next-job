@@ -73,7 +73,7 @@ let jobs = [
     key: "network",
   },
   {
-    name: "Hacking",
+    name: "Cyber Security",
     desc: "Ethical Hacker, Penetration Testing...",
     icon: "i-heroicons-bug-ant-16-solid",
     key: "hacking",
