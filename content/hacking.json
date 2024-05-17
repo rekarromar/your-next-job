@@ -23,7 +23,7 @@
   },
 
   {
-    "name": "Ethical hacking",
+    "name": "Security",
     "description": "",
     "technologies": [
       {
@@ -31,7 +31,7 @@
         "url": "https://www.comptia.org/certifications/security"
       },
       {
-        "name": "CompTIA CybersecurityAnalyst+",
+        "name": "CompTIA Cybersecurity Analyst+",
         "url": "https://www.comptia.org/certifications/cybersecurity-analyst"
       },
       {
@@ -95,7 +95,7 @@
         "url": "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/"
       },
       {
-        "name": "CCNP security",
+        "name": "NOC:CCNP security",
         "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/security/ccnp-security/exams-and-training.html"
       }
     ]
