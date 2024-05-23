@@ -23,8 +23,8 @@
   },
 
   {
-    "name": "Ethical hacking",
-    "description": "",
+    "name": "security practitioner",
+    "description": "cybersecurity fundamentals are necessary before dip dive into both offensive and defensive",
     "technologies": [
       {
         "name": "Comptia Security+",
