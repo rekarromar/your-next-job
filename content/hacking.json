@@ -104,12 +104,16 @@
     "description": "Capture the flag is a non-academic competition and challenges in cybersecurity to enhance your cybersecurity skills in every aspect.",
     "technologies": [
       {
-        "name": "PicoCTF 2022",
-        "url": "https://www.offsec.com/courses/soc-200/"
+        "name": "PicoCTF",
+        "url": "https://picoctf.org/get_started.html"
       },
       {
-        "name": "NahamSec2024",
-        "url": "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/"
+        "name": "NahamConCTF",
+        "url": "https://www.nahamcon.com/"
+      },
+      {
+        "name": "HackTheBoxCTF",
+        "url": "https://ctf.hackthebox.com"
       }
     ]
   }
