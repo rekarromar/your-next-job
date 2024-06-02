@@ -21,7 +21,6 @@
       }
     ]
   },
-
   {
     "name": "security practitioner",
     "description": "cybersecurity fundamentals are necessary before dip dive into both offensive and defensive",
@@ -97,6 +96,20 @@
       {
         "name": "CCNP security",
         "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/security/ccnp-security/exams-and-training.html"
+      }
+    ]
+  },
+  {
+    "name": "Capture The Flag CTF",
+    "description": "Capture the flag is a non-academic competition and challenges in cybersecurity to enhance your cybersecurity skills in every aspect.",
+    "technologies": [
+      {
+        "name": "PicoCTF 2022",
+        "url": "https://www.offsec.com/courses/soc-200/"
+      },
+      {
+        "name": "NahamSec2024",
+        "url": "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/"
       }
     ]
   }
